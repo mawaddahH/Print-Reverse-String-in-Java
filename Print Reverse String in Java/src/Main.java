@@ -19,10 +19,9 @@ public class Main {
 			letter=word.charAt(i);
 			revWord = letter +revWord;
 		}
-
-           System.out.println("The reverse word is= "+revWord);
-           System.out.println("THANK YOU");
-
+		System.out.println("The reverse word is= "+revWord);
+		System.out.println("THANK YOU");
+		
         UserInput.close();
 	}
 
